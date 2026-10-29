@@ -1,0 +1,802 @@
+[
+  {
+    "datum": "20240427",
+    "temperatur": 100.66
+  },
+  {
+    "datum": "20240110",
+    "temperatur": 37.01
+  },
+  {
+    "datum": "20240126",
+    "temperatur": 117.66
+  },
+  {
+    "datum": "20240102",
+    "temperatur": 62.79
+  },
+  {
+    "datum": "20240329",
+    "temperatur": 119.71
+  },
+  {
+    "datum": "20240229",
+    "temperatur": 37.49
+  },
+  {
+    "datum": "20240127",
+    "temperatur": 64.46
+  },
+  {
+    "datum": "20240208",
+    "temperatur": -15.95
+  },
+  {
+    "datum": "20240204",
+    "temperatur": 20.5
+  },
+  {
+    "datum": "20240528",
+    "temperatur": 47.22
+  },
+  {
+    "datum": "20240101",
+    "temperatur": 103.31
+  },
+  {
+    "datum": "20240314",
+    "temperatur": 110.39
+  },
+  {
+    "datum": "20240103",
+    "temperatur": 73.3
+  },
+  {
+    "datum": "20240408",
+    "temperatur": 35.42
+  },
+  {
+    "datum": "20240507",
+    "temperatur": 24.77
+  },
+  {
+    "datum": "20240624",
+    "temperatur": 67.58
+  },
+  {
+    "datum": "20240403",
+    "temperatur": 69.91
+  },
+  {
+    "datum": "20240225",
+    "temperatur": 2.12
+  },
+  {
+    "datum": "20240227",
+    "temperatur": -16.93
+  },
+  {
+    "datum": "20240524",
+    "temperatur": 119.86
+  },
+  {
+    "datum": "20240406",
+    "temperatur": -13.59
+  },
+  {
+    "datum": "20240311",
+    "temperatur": 17.59
+  },
+  {
+    "datum": "20240104",
+    "temperatur": 83.81
+  },
+  {
+    "datum": "20240424",
+    "temperatur": 92.41
+  },
+  {
+    "datum": "20240223",
+    "temperatur": 68.28
+  },
+  {
+    "datum": "20240320",
+    "temperatur": 30.4
+  },
+  {
+    "datum": "20240112",
+    "temperatur": 70.53
+  },
+  {
+    "datum": "20240114",
+    "temperatur": -0.03
+  },
+  {
+    "datum": "20240323",
+    "temperatur": 96.44
+  },
+  {
+    "datum": "20240512",
+    "temperatur": 30.0
+  },
+  {
+    "datum": "20240415",
+    "temperatur": 99.91
+  },
+  {
+    "datum": "20240213",
+    "temperatur": 86.16
+  },
+  {
+    "datum": "20240505",
+    "temperatur": 102.34
+  },
+  {
+    "datum": "20240111",
+    "temperatur": 82.15
+  },
+  {
+    "datum": "20240210",
+    "temperatur": 11.29
+  },
+  {
+    "datum": "20240312",
+    "temperatur": 94.15
+  },
+  {
+    "datum": "20240423",
+    "temperatur": -0.61
+  },
+  {
+    "datum": "20240224",
+    "temperatur": -3.64
+  },
+  {
+    "datum": "20240221",
+    "temperatur": 96.0
+  },
+  {
+    "datum": "20240519",
+    "temperatur": 62.32
+  },
+  {
+    "datum": "20240517",
+    "temperatur": 32.55
+  },
+  {
+    "datum": "20240628",
+    "temperatur": 12.25
+  },
+  {
+    "datum": "20240616",
+    "temperatur": -1.13
+  },
+  {
+    "datum": "20240531",
+    "temperatur": 11.82
+  },
+  {
+    "datum": "20240606",
+    "temperatur": 104.83
+  },
+  {
+    "datum": "20240623",
+    "temperatur": 107.8
+  },
+  {
+    "datum": "20240219",
+    "temperatur": 53.51
+  },
+  {
+    "datum": "20240322",
+    "temperatur": -16.92
+  },
+  {
+    "datum": "20240607",
+    "temperatur": 6.25
+  },
+  {
+    "datum": "20240617",
+    "temperatur": 72.78
+  },
+  {
+    "datum": "20240407",
+    "temperatur": 81.23
+  },
+  {
+    "datum": "20240310",
+    "temperatur": 48.87
+  },
+  {
+    "datum": "20240501",
+    "temperatur": -17.81
+  },
+  {
+    "datum": "20240603",
+    "temperatur": 25.4
+  },
+  {
+    "datum": "20240430",
+    "temperatur": -6.17
+  },
+  {
+    "datum": "20240107",
+    "temperatur": 76.29
+  },
+  {
+    "datum": "20240518",
+    "temperatur": -12.03
+  },
+  {
+    "datum": "20240625",
+    "temperatur": 35.95
+  },
+  {
+    "datum": "20240608",
+    "temperatur": 119.64
+  },
+  {
+    "datum": "20240508",
+    "temperatur": 63.13
+  },
+  {
+    "datum": "20240413",
+    "temperatur": -9.4
+  },
+  {
+    "datum": "20240514",
+    "temperatur": 113.73
+  },
+  {
+    "datum": "20240609",
+    "temperatur": 66.95
+  },
+  {
+    "datum": "20240301",
+    "temperatur": 38.75
+  },
+  {
+    "datum": "20240210",
+    "temperatur": 31.13
+  },
+  {
+    "datum": "20240527",
+    "temperatur": 97.21
+  },
+  {
+    "datum": "20240613",
+    "temperatur": 93.08
+  },
+  {
+    "datum": "20240420",
+    "temperatur": 82.25
+  },
+  {
+    "datum": "20240621",
+    "temperatur": 118.46
+  },
+  {
+    "datum": "20240425",
+    "temperatur": -12.29
+  },
+  {
+    "datum": "20240206",
+    "temperatur": 44.49
+  },
+  {
+    "datum": "20240202",
+    "temperatur": 82.53
+  },
+  {
+    "datum": "20240106",
+    "temperatur": 62.08
+  },
+  {
+    "datum": "20240604",
+    "temperatur": 98.51
+  },
+  {
+    "datum": "20240228",
+    "temperatur": -7.79
+  },
+  {
+    "datum": "20240215",
+    "temperatur": 51.09
+  },
+  {
+    "datum": "20240330",
+    "temperatur": 82.71
+  },
+  {
+    "datum": "20240109",
+    "temperatur": -9.91
+  },
+  {
+    "datum": "20240118",
+    "temperatur": 14.73
+  },
+  {
+    "datum": "20240523",
+    "temperatur": 102.88
+  },
+  {
+    "datum": "20240506",
+    "temperatur": 39.29
+  },
+  {
+    "datum": "20240123",
+    "temperatur": -16.14
+  },
+  {
+    "datum": "20240503",
+    "temperatur": 105.94
+  },
+  {
+    "datum": "20240418",
+    "temperatur": 20.14
+  },
+  {
+    "datum": "20240211",
+    "temperatur": 19.07
+  },
+  {
+    "datum": "20240522",
+    "temperatur": 60.62
+  },
+  {
+    "datum": "20240228",
+    "temperatur": 51.51
+  },
+  {
+    "datum": "20240207",
+    "temperatur": -2.44
+  },
+  {
+    "datum": "20240502",
+    "temperatur": 39.37
+  },
+  {
+    "datum": "20240308",
+    "temperatur": 3.13
+  },
+  {
+    "datum": "20240324",
+    "temperatur": -15.88
+  },
+  {
+    "datum": "20240615",
+    "temperatur": -19.92
+  },
+  {
+    "datum": "20240601",
+    "temperatur": 99.35
+  },
+  {
+    "datum": "20240516",
+    "temperatur": 98.88
+  },
+  {
+    "datum": "20240121",
+    "temperatur": 106.53
+  },
+  {
+    "datum": "20240220",
+    "temperatur": -7.08
+  },
+  {
+    "datum": "20240416",
+    "temperatur": 12.28
+  },
+  {
+    "datum": "20240217",
+    "temperatur": 55.45
+  },
+  {
+    "datum": "20240511",
+    "temperatur": -1.38
+  },
+  {
+    "datum": "20240530",
+    "temperatur": -13.02
+  },
+  {
+    "datum": "20240520",
+    "temperatur": 35.12
+  },
+  {
+    "datum": "20240510",
+    "temperatur": -11.04
+  },
+  {
+    "datum": "20240422",
+    "temperatur": 88.98
+  },
+  {
+    "datum": "20240302",
+    "temperatur": 20.17
+  },
+  {
+    "datum": "20240602",
+    "temperatur": 16.51
+  },
+  {
+    "datum": "20240508",
+    "temperatur": 30.88
+  },
+  {
+    "datum": "20240515",
+    "temperatur": 119.77
+  },
+  {
+    "datum": "20240610",
+    "temperatur": -5.77
+  },
+  {
+    "datum": "20240209",
+    "temperatur": -10.17
+  },
+  {
+    "datum": "20240509",
+    "temperatur": 77.72
+  },
+  {
+    "datum": "20240313",
+    "temperatur": 11.09
+  },
+  {
+    "datum": "20240325",
+    "temperatur": 112.66
+  },
+  {
+    "datum": "20240428",
+    "temperatur": 99.71
+  },
+  {
+    "datum": "20240417",
+    "temperatur": 64.72
+  },
+  {
+    "datum": "20240414",
+    "temperatur": -16.17
+  },
+  {
+    "datum": "20240218",
+    "temperatur": 1.26
+  },
+  {
+    "datum": "20240205",
+    "temperatur": 75.67
+  },
+  {
+    "datum": "20240305",
+    "temperatur": 105.87
+  },
+  {
+    "datum": "20240124",
+    "temperatur": -18.84
+  },
+  {
+    "datum": "20240426",
+    "temperatur": 26.54
+  },
+  {
+    "datum": "20240429",
+    "temperatur": 59.56
+  },
+  {
+    "datum": "20240528",
+    "temperatur": 95.68
+  },
+  {
+    "datum": "20240113",
+    "temperatur": 42.22
+  },
+  {
+    "datum": "20240125",
+    "temperatur": 60.13
+  },
+  {
+    "datum": "20240226",
+    "temperatur": -10.41
+  },
+  {
+    "datum": "20240206",
+    "temperatur": 104.18
+  },
+  {
+    "datum": "20240504",
+    "temperatur": 49.73
+  },
+  {
+    "datum": "20240319",
+    "temperatur": 111.14
+  },
+  {
+    "datum": "20240402",
+    "temperatur": 27.96
+  },
+  {
+    "datum": "20240406",
+    "temperatur": 41.72
+  },
+  {
+    "datum": "20240521",
+    "temperatur": 39.4
+  },
+  {
+    "datum": "20240321",
+    "temperatur": 49.68
+  },
+  {
+    "datum": "20240316",
+    "temperatur": 117.6
+  },
+  {
+    "datum": "20240419",
+    "temperatur": 92.02
+  },
+  {
+    "datum": "20240128",
+    "temperatur": 48.74
+  },
+  {
+    "datum": "20240314",
+    "temperatur": 77.73
+  },
+  {
+    "datum": "20240410",
+    "temperatur": 117.02
+  },
+  {
+    "datum": "20240120",
+    "temperatur": 66.66
+  },
+  {
+    "datum": "20240203",
+    "temperatur": 5.3
+  },
+  {
+    "datum": "20240212",
+    "temperatur": 63.1
+  },
+  {
+    "datum": "20240614",
+    "temperatur": 54.51
+  },
+  {
+    "datum": "20240315",
+    "temperatur": 11.28
+  },
+  {
+    "datum": "20240605",
+    "temperatur": 53.6
+  },
+  {
+    "datum": "20240331",
+    "temperatur": -11.25
+  },
+  {
+    "datum": "20240122",
+    "temperatur": 26.22
+  },
+  {
+    "datum": "20240117",
+    "temperatur": 110.55
+  },
+  {
+    "datum": "20240213",
+    "temperatur": 53.13
+  },
+  {
+    "datum": "20240525",
+    "temperatur": 89.06
+  },
+  {
+    "datum": "20240318",
+    "temperatur": -3.47
+  },
+  {
+    "datum": "20240611",
+    "temperatur": 103.48
+  },
+  {
+    "datum": "20240612",
+    "temperatur": 16.01
+  },
+  {
+    "datum": "20240513",
+    "temperatur": 6.0
+  },
+  {
+    "datum": "20240526",
+    "temperatur": 46.66
+  },
+  {
+    "datum": "20240304",
+    "temperatur": 88.69
+  },
+  {
+    "datum": "20240419",
+    "temperatur": 26.67
+  },
+  {
+    "datum": "20240627",
+    "temperatur": -19.64
+  },
+  {
+    "datum": "20240317",
+    "temperatur": 106.02
+  },
+  {
+    "datum": "20240529",
+    "temperatur": 72.97
+  },
+  {
+    "datum": "20240405",
+    "temperatur": 18.39
+  },
+  {
+    "datum": "20240104",
+    "temperatur": 111.97
+  },
+  {
+    "datum": "20240309",
+    "temperatur": 99.84
+  },
+  {
+    "datum": "20240216",
+    "temperatur": -14.14
+  },
+  {
+    "datum": "20240404",
+    "temperatur": 69.03
+  },
+  {
+    "datum": "20240131",
+    "temperatur": 79.09
+  },
+  {
+    "datum": "20240105",
+    "temperatur": 92.6
+  },
+  {
+    "datum": "20240117",
+    "temperatur": 48.74
+  },
+  {
+    "datum": "20240602",
+    "temperatur": 51.3
+  },
+  {
+    "datum": "20240421",
+    "temperatur": 18.77
+  },
+  {
+    "datum": "20240106",
+    "temperatur": 50.11
+  },
+  {
+    "datum": "20240412",
+    "temperatur": -1.23
+  },
+  {
+    "datum": "20240622",
+    "temperatur": 98.07
+  },
+  {
+    "datum": "20240119",
+    "temperatur": -0.82
+  },
+  {
+    "datum": "20240306",
+    "temperatur": 88.06
+  },
+  {
+    "datum": "20240411",
+    "temperatur": 79.27
+  },
+  {
+    "datum": "20240530",
+    "temperatur": 35.22
+  },
+  {
+    "datum": "20240326",
+    "temperatur": 10.58
+  },
+  {
+    "datum": "20240222",
+    "temperatur": 82.44
+  },
+  {
+    "datum": "20240303",
+    "temperatur": 33.43
+  },
+  {
+    "datum": "20240327",
+    "temperatur": 114.35
+  },
+  {
+    "datum": "20240129",
+    "temperatur": -2.73
+  },
+  {
+    "datum": "20240512",
+    "temperatur": 34.92
+  },
+  {
+    "datum": "20240511",
+    "temperatur": -13.14
+  },
+  {
+    "datum": "20240327",
+    "temperatur": 103.42
+  },
+  {
+    "datum": "20240203",
+    "temperatur": 118.78
+  },
+  {
+    "datum": "20240620",
+    "temperatur": 76.23
+  },
+  {
+    "datum": "20240417",
+    "temperatur": 26.35
+  },
+  {
+    "datum": "20240115",
+    "temperatur": 34.58
+  },
+  {
+    "datum": "20240409",
+    "temperatur": -19.08
+  },
+  {
+    "datum": "20240116",
+    "temperatur": 21.65
+  },
+  {
+    "datum": "20240214",
+    "temperatur": 32.67
+  },
+  {
+    "datum": "20240127",
+    "temperatur": 86.71
+  },
+  {
+    "datum": "20240328",
+    "temperatur": 39.5
+  },
+  {
+    "datum": "20240108",
+    "temperatur": 66.02
+  },
+  {
+    "datum": "20240307",
+    "temperatur": 98.74
+  },
+  {
+    "datum": "20240619",
+    "temperatur": 67.27
+  },
+  {
+    "datum": "20240130",
+    "temperatur": -0.41
+  },
+  {
+    "datum": "20240626",
+    "temperatur": 86.85
+  },
+  {
+    "datum": "20240201",
+    "temperatur": 13.7
+  },
+  {
+    "datum": "20240401",
+    "temperatur": 109.28
+  },
+  {
+    "datum": "20240618",
+    "temperatur": -13.8
+  }
+]
