@@ -1,20 +1,15 @@
 package at.kaindorf.plf_1.services;
 
-import at.kaindorf.plf_1.DTO.StatistikResponse;
 import at.kaindorf.plf_1.entities.Measurement;
 import at.kaindorf.plf_1.repositories.MeasurementRepository;
 import lombok.RequiredArgsConstructor;
-import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Service;
-import org.springframework.transaction.annotation.Transactional;
-import org.springframework.web.server.ResponseStatusException;
 
 import java.util.ArrayList;
 import java.util.List;
 
 @Service
 @RequiredArgsConstructor
-@Transactional(readOnly = true)
 public class MeasurementService {
 
     private final MeasurementRepository measurementRepository;
@@ -35,23 +30,18 @@ public class MeasurementService {
         List<Measurement> gueltige = new ArrayList<>();
 
         for (Measurement m : alle) {
-            if (!oesterreich
-                    && !m.getStandort().trim().equalsIgnoreCase(standort)) {
-                continue;
-            }
+            if (oesterreich || m.getStandort().trim().equalsIgnoreCase(standort)) {
+                int counter = 0;
 
-            int counter = 0;
-
-            for (Measurement andere : alle) {
-                if (m.getStandort().trim().equalsIgnoreCase(
-                        andere.getStandort().trim())
-                        && m.getDatum().equals(andere.getDatum())) {
-                    counter++;
+                for (Measurement andere : alle) {
+                    if (m.getStandort().trim().equalsIgnoreCase(andere.getStandort().trim()) && m.getDatum().equals(andere.getDatum())) {
+                        counter++;
+                    }
                 }
-            }
 
-            if (counter == 1) {
-                gueltige.add(m);
+                if (counter == 1) {
+                    gueltige.add(m);
+                }
             }
         }
 
@@ -61,8 +51,7 @@ public class MeasurementService {
     private double mittelwert(List<Measurement> messungen) {
 
         if (messungen.isEmpty()) {
-            throw new ResponseStatusException(
-                    HttpStatus.BAD_REQUEST, "Keine gültigen Messwerte");
+            throw new IllegalArgumentException("Keine gültigen Messwerte");
         }
 
         double summe = 0;
@@ -83,8 +72,7 @@ public class MeasurementService {
         List<Measurement> messungen = getValidMeasurements(standort);
 
         if (messungen.size() < 2) {
-            throw new ResponseStatusException(
-                    HttpStatus.BAD_REQUEST,
+            throw new IllegalArgumentException(
                     "Mindestens zwei gültige Messwerte erforderlich");
         }
 
@@ -99,9 +87,8 @@ public class MeasurementService {
         return Math.sqrt(summe / (messungen.size() - 1));
     }
 
-    public StatistikResponse<Long> getValidData(String standort) {
+    public long getValidData(String standort) {
 
-        standort = standort.trim().toLowerCase();
         long anzahl = 0;
 
         for (Measurement m : getValidMeasurements(standort)) {
@@ -110,10 +97,6 @@ public class MeasurementService {
             }
         }
 
-        if (standort.equals("österreich") || standort.equals("oesterreich")) {
-            standort = "Österreich";
-        }
-
-        return new StatistikResponse<>(standort, anzahl);
+        return anzahl;
     }
 }

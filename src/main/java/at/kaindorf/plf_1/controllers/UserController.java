@@ -5,6 +5,7 @@ import at.kaindorf.plf_1.services.UserService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.web.server.ResponseStatusException;
 
 @RestController
 @RequestMapping("api/v1")
@@ -17,7 +18,13 @@ public class UserController {
     @ResponseStatus(HttpStatus.CREATED)
     public void addUser(@RequestBody AddUserRequest request) {
 
-        userService.addUser(request);
+        try {
+            userService.addUser(request);
+        } catch (IllegalArgumentException exception) {
+            throw new ResponseStatusException(HttpStatus.BAD_REQUEST, exception.getMessage(), exception);
+        } catch (IllegalStateException exception) {
+            throw new ResponseStatusException(HttpStatus.CONFLICT, exception.getMessage(), exception);
+        }
 
     }
 
