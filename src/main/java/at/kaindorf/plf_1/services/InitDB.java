@@ -39,9 +39,9 @@ public class InitDB implements ApplicationRunner {
 
         int counter = 0;
 
-        for (String s : standorte) {
+        for (String standort : standorte) {
 
-            String path = "/data/" + s + ".json";
+            String path = "/data/" + standort + ".json";
 
             try {
                 InputStream jsonStream = InitDB.class.getResourceAsStream(path);
@@ -55,7 +55,7 @@ public class InitDB implements ApplicationRunner {
                         .readValue(jsonStream); // da sind nur die Daten von JSON drin
 
                 for (Measurement measurement : measurements) {
-                    measurement.setStandort(s); // standort setzen!
+                    measurement.setStandort(standort); // standort setzen!
                 }
 
                 measurementRepository.saveAll(measurements);
