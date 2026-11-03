@@ -49,7 +49,7 @@ public class MeasurementController {
     // 4)
     @GetMapping("validData/{standort}")
     public StatistikResponse<Long> getValidData(@PathVariable("standort") String standort) {
-        String name = standort.trim().toLowerCase(java.util.Locale.ROOT);
+        String name = standort.trim().toLowerCase();
         if (name.equals("österreich") || name.equals("oesterreich")) {
             name = "Österreich";
         }

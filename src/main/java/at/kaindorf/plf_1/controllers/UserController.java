@@ -19,11 +19,17 @@ public class UserController {
     public void addUser(@RequestBody AddUserRequest request) {
 
         try {
+
             userService.addUser(request);
+
         } catch (IllegalArgumentException exception) {
+
             throw new ResponseStatusException(HttpStatus.BAD_REQUEST, exception.getMessage(), exception);
+
         } catch (IllegalStateException exception) {
+
             throw new ResponseStatusException(HttpStatus.CONFLICT, exception.getMessage(), exception);
+
         }
 
     }
